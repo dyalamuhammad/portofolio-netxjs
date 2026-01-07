@@ -19,7 +19,7 @@ const page = () => {
       <Divider/>
       <Education/>
       <Divider/>
-      <ProjectOverview/>
+      {/* <ProjectOverview/> */}
       <Divider/>
     </main>
   )
