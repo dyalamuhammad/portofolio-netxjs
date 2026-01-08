@@ -33,7 +33,7 @@ const HeroSection = () => {
                                 <Image src={"/images/hero-sec/user.jpeg"} alt="user-img" width={145} height={145} className="border-4 border-white rounded-full size-[145px] object-cover" />
                                 <span className="absolute bottom-2.5 right-5 w-4 h-4 bg-green-500 border-2 border-white rounded-full" />
                             </div>
-                            <div className="flex flex-col gap-2 sm:gap-3 items-center text-center xs:items-start">
+                            <div className="flex flex-col gap-2 sm:gap-3 items-center text-center xs:text-start xs:items-start">
                                 <h1 className="text-2xl">Dyala Muhammad Panahpertama</h1>
                                 <p className="text-violet-700 font-normal">Full Stack Web Developer</p>
                                 <div className="flex items-center gap-2">
