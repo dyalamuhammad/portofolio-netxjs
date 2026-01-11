@@ -16,18 +16,6 @@ const experienceData = [
     },
     {
         icon: "/images/icon/asana-icon.svg",
-        role: "Frontend Developer, Nine Fox Lab",
-        location: "Remote",
-        startYear: "Nov, 2023",
-        endYear: "Feb, 2024",
-        bulletPoints: [
-            "Developed and maintained responsive company profile websites using Laravel Blade, routing, and controller integration",
-            "Collaborated with backend engineers and UI/UX designers to translate business requirements into modern, user-friendly interfaces.",
-            "Optimized frontend performance through modular Blade components, debugging, and cross-browser compatibility improvements."
-        ]
-    },
-    {
-        icon: "/images/icon/asana-icon.svg",
         role: "Full Stack Developer Freelance, PT Nusantara Siber Integrasi",
         location: "Remote",
         startYear: "Aug, 2024",
@@ -48,6 +36,18 @@ const experienceData = [
             "Developed an internal web-based monitoring system using Laravel, covering full-stack components from database to UI.",
             "Designed role-based interfaces for Managers, Supervisors, Foremen, Team Leaders, and Team Members with proper access control.",
             "Deployed the system to an internal server and collaborated with the IT team to ensure stable production performance."
+        ]
+    },
+    {
+        icon: "/images/icon/asana-icon.svg",
+        role: "Frontend Developer, Nine Fox Lab",
+        location: "Remote",
+        startYear: "Nov, 2023",
+        endYear: "Feb, 2024",
+        bulletPoints: [
+            "Developed and maintained responsive company profile websites using Laravel Blade, routing, and controller integration",
+            "Collaborated with backend engineers and UI/UX designers to translate business requirements into modern, user-friendly interfaces.",
+            "Optimized frontend performance through modular Blade components, debugging, and cross-browser compatibility improvements."
         ]
     },
 ]
