@@ -2,8 +2,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button";
 
-const FeaturedWork = () => {
-
+const FeaturedProject = () => {
 
     return (
         <section>
@@ -11,10 +10,10 @@ const FeaturedWork = () => {
                 <div className="border-x border-primary/10">
                     <div className="flex flex-col max-w-4xl mx-auto py-10 px-4 sm:px-7">
                         <div className="flex flex-col xs:flex-row gap-5 items-center justify-between">
-                            <p className="text-sm tracking-[2px] text-primary uppercase font-medium">Featured work</p>
+                            <p className="text-sm tracking-[2px] text-primary uppercase font-medium">Featured project</p>
                             <Button asChild variant={"outline"} className="h-auto">
-                                <Link href={"/files/Dyala Muhammad Porto.pdf"} download={"Dyala Muhammad Porto.pdf"} className="py-3 px-5">
-                                    Download Portfolio
+                                <Link href={"https://www.notion.so/046b0fd8f1ac44e5aef41e51ab36b47c?v=dbde6241d4134644aac400e0eab49115&source=copy_link"} target="_blank" className="py-3 px-5">
+                                    View Projects Via Notion
                                 </Link>
                             </Button>
                         </div>
@@ -53,4 +52,4 @@ const FeaturedWork = () => {
     )
 }
 
-export default FeaturedWork
+export default FeaturedProject
