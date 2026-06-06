@@ -3,10 +3,24 @@ import { NextResponse } from "next/server";
 const experienceData = [
     {
         icon: "/images/icon/tailwind-icon.svg",
+        role: "Human Capital Business Partner (Apprenticeship), PT Bank Syariah Indonesia (Persero) Tbk.",
+        location: "Jakarta, Indonesia",
+        startYear: "Mar, 2026",
+        endYear: "Present",
+        bulletPoints: [
+            "Coordinated workforce planning activities between Head Office and regional offices.",
+            "Managed headcount requests, employee transfers, and workforce administration.",
+            "Maintained employee data accuracy within the HR system.",
+            "Developed headcount monitoring dashboards for workforce tracking and reporting.",
+            "Provided workforce analytics to support Human Capital decision-making."
+        ]
+    },
+    {
+        icon: "/images/icon/tailwind-icon.svg",
         role: "Full Stack Developer, PT Digital Lintas Dunia",
         location: "Tanggerang, Indonesia",
         startYear: "Feb, 2025",
-        endYear: "Present",
+        endYear: "Des, 2025",
         bulletPoints: [
             "Designed and developed the website architecture using the Beego MVC pattern.",
             "Implemented RESTful APIs to support frontend-backend communication.",
