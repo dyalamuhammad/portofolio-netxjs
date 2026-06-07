@@ -65,7 +65,7 @@ const HeroSection = () => {
                                                 width={14}
                                                 height={14}
                                             />
-                                            <span className="text-sm sm:text-base font-semibold text-white">Get in touch</span>
+                                            <span className="text-sm sm:text-base font-semibold text-white">Curriculum Vitae</span>
                                         </span>
                                     </Link>
                                 </Button>

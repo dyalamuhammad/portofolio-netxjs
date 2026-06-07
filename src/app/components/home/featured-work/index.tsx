@@ -14,7 +14,7 @@ const FeaturedWork = () => {
                             <p className="text-sm tracking-[2px] text-primary uppercase font-medium">Featured work</p>
                             <Button asChild variant={"outline"} className="h-auto">
                                 <Link href={"/files/Dyala Muhammad Porto.pdf"} download={"Dyala Muhammad Porto.pdf"} className="py-3 px-5">
-                                    Download Portfolio
+                                    Open Portfolio
                                 </Link>
                             </Button>
                         </div>
